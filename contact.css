@@ -1,0 +1,152 @@
+/* Body css */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+/* Body css */
+/* Navbar css */
+.navbar{
+  list-style-type: none;
+  text-align: center;
+  margin: 0px 15px 0px 15px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(27, 22, 58);
+  border-radius: 0px 0px 10px 10px;
+  opacity: 0.9;
+  /* height: 60px; */
+}
+.link{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.link a{
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+}
+a:hover{
+  background-color: rgb(73, 3, 48);
+  border-radius: 10px;
+}
+.active{
+  background-color: #FC4D09;
+  border-radius: 10px;
+}
+/* Navbar css */
+/* Header css */
+h1{
+  font-size: 55px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+header{
+  background-image: url("../img/typical.jpg");
+  background-size: cover;
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 15px;
+}
+/* Header css */
+/* Footer css */
+footer{
+  position: bottom;
+  background-color: rgb(27, 22, 58);
+  padding: 5px;
+  border-radius: 10px 10px 0px 0px;
+  margin: 0px 15px 0px 15px;
+  opacity: 0.9;
+  text-align: center;
+}
+.footerp{
+  color: white;
+  font-size: 15px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+/* Footer css */
+
+h3{
+  text-align: center;
+}
+input[type=text], select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  /* border: 1px solid rgb(27, 22, 58); */
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #FC4D09;
+  color: white;
+  padding: 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+}
+input[type=submit]:hover {
+  background-color: rgb(73, 3, 48);
+}
+#container{
+  margin: auto auto 15px auto;
+  border-radius: 10px;
+  background-color: rgb(50, 46, 77);
+  padding: 20px;
+  color: white;
+  width: 600px;
+}
+#first{
+  width: 350px;
+  float: right;
+  font-size: 20px;
+}
+#second{
+  width: 235px;
+  float: left;
+  text-align: center;
+  /* align-items: center; */
+}
+img {
+  /* position: relative; */
+  /* padding-top: 10px; */
+  /* position: relative;
+  display: block; */
+  border-radius: 10px;
+  margin: auto;
+  height: 185px;
+  width: 185px;
+  /* top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0; */
+  /* padding-top: 100px; */
+}
+#clear{
+  clear: both;
+}
+#message{
+  width: 100%;
+  height: 125px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
