@@ -1,0 +1,250 @@
+/* Body css */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: arial;
+}
+/* Body css */
+/* Navbar css */
+.navbar{
+  list-style-type: none;
+  text-align: center;
+  margin: 0px 15px 0px 15px;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(27, 22, 58);
+  border-radius: 0px 0px 10px 10px;
+  opacity: 0.9;
+}
+.link{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.link a{
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+}
+a:hover{
+  background-color: rgb(73, 3, 48);
+  border-radius: 10px;
+}
+.active{
+  background-color: #FC4D09;
+  border-radius: 10px;
+}
+/* Navbar css */
+/* Header css */
+h1{
+  font-size: 55px;
+  color: white;
+  text-align: center;
+  font-weight: 500;
+}
+header{
+  background-image: url("../img/river.jpg");
+  background-size: cover;
+  opacity: 1;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 15px;
+}
+/* Header css */
+/* Footer css */
+footer{
+  position: bottom;
+  background-color: rgb(27, 22, 58);
+  padding: 5px;
+  border-radius: 10px 10px 0px 0px;
+  margin: 0px 15px 0px 15px;
+  opacity: 0.9;
+  text-align: center;
+  /* margin-bottom: 0px; */
+}
+.footerp{
+  color: white;
+  font-size: 15px;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+/* Footer css */
+
+.wrapper{
+  /* border: 1px solid rgb(27, 22, 58);
+  border-radius: 10px; */
+  margin: 15px;
+}
+/* Style the tab */
+.tab {
+  float: left;
+  /* border: 1px solid #ccc; */
+  border-radius: 10px;
+  background-color: rgb(50, 46, 77);
+  width: 30%;
+  height: 200px;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  display: block;
+  background-color: inherit;
+  color: white;
+  padding: 22px 16px;
+  width: 100%;
+  border: none;
+  outline: none;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: rgb(73, 3, 48);
+  border-radius: 10px;
+}
+
+/* Create an active/current "tab button" class */
+.tab button.active {
+  background-color: #FC4D09;
+}
+
+/* Style the tab content */
+.tabcontent {
+  float: center;
+  padding-left: 32%;
+  /* border: 1px solid #ccc; */
+  width: 65%;
+  border-left: none;
+  height: auto;
+  display: none;
+}
+sup{
+  vertical-align: super;
+  font-size: smaller;
+}
+h4{
+  text-align: center;
+  position: bottom;
+  max-width: 500px;
+  margin: auto;
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+input[type=text], select{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(27, 22, 58);
+  border-radius: 10px;
+  box-sizing: border-box;
+  /* border: 2px solid red; */
+  outline: none;
+}
+#grades{
+  width: 250px;
+}
+#testing{
+  width: 250px;
+}
+/* Custom Select css */
+/* .custom-select{
+  position: relative;
+}
+.custom-select select{
+  display: none;
+}
+.select-selected{
+  background-color: #FC4D09;
+}
+.select-selected:after{
+  position: absolute;
+  content: "";
+  top: auto;
+  right: auto;
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  border-color: rgb(27, 22, 58);
+}
+.select-items div,.select-selected {
+  color: #ffffff;
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-color: transparent transparent rgba(0, 0, 0, 0.1) transparent;
+  cursor: pointer;
+}
+.select-items {
+  position: absolute;
+  background-color: DodgerBlue;
+  top: 100%;
+  left: 0;
+  right: 0;
+  z-index: 99;
+}
+.select-hide {
+  display: none;
+}
+.select-items div:hover, .same-as-selected {
+background-color: rgba(0, 0, 0, 0.1);
+} */
+/* Custom Select css */
+input[type=submit] {
+  width: 100%;
+  background-color: #FC4D09;
+  color: white;
+  padding: 15px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  outline: none;
+}
+input[type=submit]:hover {
+  background-color: rgb(73, 3, 48);
+}
+#top3{
+  width: 100%;
+  height: 75px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 10px;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/* Testing Info css */
+/* .reveal-if-active {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  font-size: inherit;
+  transform: scale(0.8);
+  transition: 0.4s;
+}
+  input[type="radio"]:checked ~ &,
+  input[type="checkbox"]:checked ~ & {
+    opacity: 1;
+    max-height: 100px;
+    padding: 10px 20px;
+    transform: scale(1);
+    overflow: visible;
+  } */
+
+/* Testing Info css */
