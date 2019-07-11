@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Consultation Application</title>
+    <link rel="stylesheet" type="text/css" href="css/application.css">
+  </head>
+  <body>
+    <nav>
+      <div class="topnav">
+        <ul class="navbar">
+        <li class="link"><a href="index.html" title="Home">Home</a></li>
+        <li class="link"><a href="holistic.html" title="Holistic Admissions">Holistic Admissions</a></li>
+        <li class="link"><a class="active" href="application.html" title="Application">Application</a></li>
+        <li class="link"><a href="faq.html" title="Frequently Asked Questions">FAQ</a></li>
+        <li class="link"><a href="contact.html" title="Contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header>
+      <h1>Consultation Application</h1>
+    </header>
+
+    <div class="wrapper">
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, '9_10')" id="defaultOpen">9<sup>th</sup> or 10<sup>th</sup> Grader</button>
+        <button class="tablinks" onclick="openCity(event, '11_12')">11<sup>th</sup> or 12<sup>th</sup> Grader</button>
+        <button class="tablinks" onclick="openCity(event, 'Parent')">Parent and/or Guardian</button>
+      </div>
+      <div id="9_10" class="tabcontent">
+        <h3>9<sup>th</sup> or 10<sup>th</sup> Grader</h3>
+        <p>This application is for current or rising 9<sup>th</sup> and 10<sup>th</sup> graders.</p>
+        <div name="container">
+          <div id="first"
+            <form action="/action_page.php" action="mailto:carina.s.arellano@gmail.com" method="post" encrypt="text/plain">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your email..">
+
+              <input type="checkbox" name="9th">I am a current or rising 9<sup>th</sup> grader<br>
+              <input type="checkbox" name="10th">I am a current or rising 10<sup>th</sup> grader<br><br>
+
+              <label for="grades">When it comes to grades, I mostly receive...<br></label>
+              <select id="grades" name="grades">
+              <option value="select">Select..</option>
+              <option value="allA">All A's</option>
+              <option value="mostA">Mostly A's</option>
+              <option value="AnB">A's and B's</option>
+              <option value="mostB">Mostly B's</option>
+              <option value="allB">All B's</option>
+              <option value="other">Other</option>
+              </select><br>
+
+              <div class="custom-select" style="width:200px;">
+                <label for="testing">Standardized Testing<br></label>
+                <select id="testing" name="testing">
+                <option value="select">Select..</option>
+                <option value="SAT">Yes, I have taken the SAT</option>
+                <option value="ACT">Yes, I have taken the ACT</option>
+                <option value="SaA">Yes, I have taken the SAT and the ACT.</option>
+                <option value="none">No, I have not taken the SAT or ACT yet.</option>
+                </select><br>
+              </div>
+
+              <!-- <label for="testing">Have you taken any standardized tests</label>
+              <div>
+                <div>
+                  <input type="checkbox" name="yes" id="yes-ACT">
+                    <label for="yes-ACT">Yes, I have taken the ACT.</label>
+
+                  <div class="reveal-if-active">
+                    <label for="yesACT">Wonderful! What was your (highest) score(s)?</label>
+                    <input type="text" id="which-ACT" name="which-ACT" class=require-if-active data-require-pair="#yes-ACT">
+                  </div>
+                </div>
+
+              <div>
+                <input type="checkbox" name="yes" id="yes-SAT">
+                  <label for="yes-SAT">Yes, I have taken the SAT.</label>
+
+                <div class="reveal-if-active">
+                  <label for="yesSAT">Sweet! What was your (highest) score(s)?</label>
+                  <input type="text" id="which-SAT" name="which-SAT" class=require-if-active data-require-pair="#yes-SAT">
+                </div>
+              </div>
+
+              <div>
+                <input type="checkbox" name="no" id="none">
+                  <label for="none">No, I have not taken any standardized tests yet.</label>
+                <div class="reveal-if-active">
+                  <label for="yesACT">No worries! You have time.</label>
+                  <input type="text" id="which-ACT" name="which-ACT" class=require-if-active data-require-pair="#yes-ACT">
+                </div>
+              </div> -->
+
+
+              <label for="tv">Favorite TV Show</label>
+              <input type="text" id="tv" name="tv" placeholder="Your favorite TV show..">
+
+              <label for="quote">Favorite Quote</label>
+              <input type="text" id="quote" name="quote" placeholder="Your favorite quote..">
+
+              <label for="top3">Top Three Things Your Are Most Passionate About</label>
+              <textarea id="top3" name="top3" rows="8" cols="13" placeholder="Your top three passions.."></textarea>
+
+              <label for="top3">Top Three Reach Schools</label>
+              <textarea id="top3" name="top3" rows="8" cols="13" placeholder="Your top three Reach Schools.."></textarea>
+
+              <label for="top3">Top Three Target Schools</label>
+              <textarea id="top3" name="top3" rows="8" cols="13" placeholder="Your top three Target Schools.."></textarea>
+
+              <label for="top3">Top Three Likely Schools</label>
+              <textarea id="top3" name="top3" rows="8" cols="13" placeholder="Your top three Likely Schools.."></textarea>
+
+              <label for="top3">What is your reason for wanting a consultation?</label>
+              <textarea id="top3" name="top3" rows="8" cols="13" placeholder="Consultation reasoning.."></textarea>
+
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+      </div>
+      <div id="11_12" class="tabcontent">
+        <h3>11<sup>th</sup> or 12<sup>th</sup> Grader</h3>
+        <p>This application is for current or rising 11<sup>th</sup> and 12<sup>th</sup> graders.</p>
+        <!-- <div name="container">
+          <div id="second"
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your first name..">
+
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your email..">
+
+              <input type="checkbox" name="9th">I am a current or rising 11<sup>th</sup> grader<br>
+              <input type="checkbox" name="10th">I am a current or rising 12<sup>th</sup> grader<br><br>
+
+              <label for="tv">Favorite TV Show</label>
+              <input type="text" id="tv" name="tv" placeholder="Your favorite TV show..">
+
+              <label for="quote">Favorite Quote</label>
+              <input type="text" id="quote" name="quote" placeholder="Your favorite quote..">
+
+              <label for="top3">Top Three Reach Schools</label>
+              <textarea id="top3" name="top3" rows="8" cols="13" placeholder="Your top three Reach Schools.."></textarea>
+
+              <label for="top3">Top Three Target Schools</label>
+              <textarea id="top3" name="top3" rows="8" cols="13" placeholder="Your top three Target Schools.."></textarea>
+
+              <label for="top3">Top Three Likely Schools</label>
+              <textarea id="top3" name="top3" rows="8" cols="13" placeholder="Your top three Likely Schools.."></textarea>
+
+              <label for="top3">What is your reason for wanting a consultation?</label>
+              <textarea id="top3" name="top3" rows="8" cols="13" placeholder="Consultation reasoning.."></textarea>
+
+              <input type="submit" value="Submit">
+            </form> -->
+      </div>
+      <div id="Parent" class="tabcontent">
+        <h3>Parent</h3>
+        <p>This applicatino is for parents and/or guardians who would like a consultation with their high school student.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <h4>Thank you for your interest in my services. I plan to help you in the most targeted and holistic way. <br><br>I will be in touch very soon.</h4>
+    </div>
+
+    <footer>
+      <p class="footerp">Made by <a href="https://www.linkedin.com/in/carinasarellano" target="_blank" title="Visit Carina's LinkedIn">Carina Arellano </a>with the help of <a href="https://skillshare.com" target="_blank" title="Visit Skillshare's Website">Skillshare </a>&copy; 2019</p>
+    </footer>
+    <script type="text/javascript" src="js/application.js"></script>
+  </body>
+</html>
